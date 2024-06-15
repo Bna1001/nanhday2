@@ -15,4 +15,6 @@ using nanh1111kiemtra.Models;
         public DbSet<nanh1111kiemtra.Models.LopHoc> LopHoc { get; set; } = default!;
 
         public DbSet<nanh1111kiemtra.Models.SinhVien> SinhVien { get; set; } = default!;
+
+        public DbSet<nanh1111kiemtra.Models.TruongHoc> TruongHoc { get; set; } = default!;
     }
